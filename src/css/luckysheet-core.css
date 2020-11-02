@@ -126,7 +126,7 @@
 }
 
 .luckysheet-wa-editor {
-    height: 32px;
+    height: 60px;
     /* background: #f7f7f7; */
     background: #fafafc;
     position: relative;
@@ -193,8 +193,8 @@
     padding: 0;
     text-decoration: none;
     width: 0;
-    /* height: 35px; */
-    height: 20px;
+    height: 35px;
+    /* height: 20px; */
     vertical-align: top;
     border-left: 1px solid #e0e0e0;
     /* margin: 0 1px; */
@@ -491,7 +491,15 @@
     padding: 0;
 }
 
-.luckysheet-toolbar-button-inner-box,
+.luckysheet-toolbar-button-inner-box {
+    padding: 0 2px;
+    padding: 0;
+    text-align: center;
+    height: 26px;
+    min-width: 26px;
+    word-break:break-word;
+    width:30px;
+}
 .luckysheet-toolbar-menu-button-inner-box {
     padding: 0 2px;
     padding: 0;
